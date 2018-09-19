@@ -1,0 +1,10 @@
+/.firebase
+.firebase.json
+/node_modules
+serviceAccountKey.json
+.DS_Store
+.env
+npm-debug.log*
+firestore.indexes.json
+firestore.rules
+firebase-debug.log

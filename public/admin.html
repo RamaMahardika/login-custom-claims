@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Admin Area</title>
+    <style>
+      body{background:#ECEFF1;color:rgba(0,0,0,.87);font-family:Roboto,Helvetica,Arial,sans-serif;margin:0;padding:0}.container{padding:30px}.admin-ui,.full-admin-ui,.logout,h3{padding:4px;font-size:12px;color:#333;margin-top:15px;border:1px solid #BBB}.admin-ui,.full-admin-ui,h3{width:240px}.logout{text-decoration:none;display:inline-block;background-color:transparent}.logout:hover{background-color:#DDD}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Hello <span id="welcome"></span>.</h3>
+      <div id="ui">
+        <div class="admin-ui">This is regular UI</div>
+      </div>
+      <a href="javascript:;" class="logout" id="logoutBtn">Loggout</a>
+    </div>
+    <script src="/__/firebase/5.5.0/firebase-app.js"></script>
+    <script src="/__/firebase/5.5.0/firebase-auth.js"></script>
+    <script src="/__/firebase/5.5.0/firebase-database.js"></script>
+    <script src="/__/firebase/5.5.0/firebase-functions.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <script src="/scripts/admin.js"></script>
+  </body>
+</html>
